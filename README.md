@@ -16,7 +16,7 @@ Milk is checked around online players (`ScanRadius` tiles, their floor and one u
 |---|---|---|
 | `LactationDays` | 300 | game days of milk after calving (0: vanilla, all year) |
 | `UdderCapPercent` | 100 | udder limit, percent of the genetic maximum (vanilla grows to 130) |
-| `SpoilDays` | 3 | game days before milk turns sour (0: never) |
+| `SpoilDays` | 10 | game days before milk turns sour (0: never) |
 | `FridgePercent` | 25 | ageing speed in a powered fridge, percent of normal |
 | `FreezerPercent` | 5 | ageing speed in a powered freezer, percent of normal |
 | `ScanRadius` | 40 | tiles around each online player checked for milk |

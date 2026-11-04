@@ -156,7 +156,7 @@ local function check(owner, fc, rateFn)
 		return
 	end
 	local s = touch(owner, fc, rateFn(owner))
-	local days = option("SpoilDays", 3)
+	local days = option("SpoilDays", 10)
 	if s and days > 0 and s.age >= days * 24 then
 		stats.spoiled = stats.spoiled + 1
 		stats.litres = stats.litres + spoil(owner, fc)
