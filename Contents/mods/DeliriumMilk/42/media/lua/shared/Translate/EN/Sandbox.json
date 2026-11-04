@@ -1,0 +1,15 @@
+{
+	"Sandbox_DelMilk": "Delirium Milk",
+	"Sandbox_DelMilk_LactationDays": "Lactation, game days",
+	"Sandbox_DelMilk_LactationDays_tooltip": "A cow gives milk for this many game days after calving, then dries off until the next calf. Cows already in milk when the mod is added count from that moment. 0 keeps vanilla: milk all year as long as she is milked every 21 days.",
+	"Sandbox_DelMilk_UdderCapPercent": "Udder limit, percent of the genetic maximum",
+	"Sandbox_DelMilk_UdderCapPercent_tooltip": "Vanilla grows the udder with every milking up to 130 percent of the maximum and hurts a cow left unmilked above 115. Up to 115 an unmilked cow is never hurt. Lower values also mean less milk per milking.",
+	"Sandbox_DelMilk_SpoilDays": "Milk turns sour after, game days",
+	"Sandbox_DelMilk_SpoilDays_tooltip": "Cow, sheep and animal milk in any container (bucket, bottle, barrel, trough) turns into sour milk after this many game days. Milk already stored when the mod is added counts from that moment. Fresh milk poured in thins out the age; milk poured from one container to another keeps its age. 0 turns souring off.",
+	"Sandbox_DelMilk_FridgePercent": "Ageing in a powered fridge, percent of normal",
+	"Sandbox_DelMilk_FridgePercent_tooltip": "25 means milk keeps four times longer in a working fridge. 0 stops ageing there.",
+	"Sandbox_DelMilk_FreezerPercent": "Ageing in a powered freezer, percent of normal",
+	"Sandbox_DelMilk_FreezerPercent_tooltip": "5 means milk keeps twenty times longer in a working freezer. 0 stops ageing there.",
+	"Sandbox_DelMilk_ScanRadius": "Check radius around players, tiles",
+	"Sandbox_DelMilk_ScanRadius_tooltip": "Milk is checked in loaded squares this far from each online player, on their floor and one up and down, a full round every 30 game minutes. Ageing is counted from timestamps, so milk left far away turns sour as soon as someone comes back."
+}

@@ -1,0 +1,6 @@
+name=Delirium Milk
+id=DelMilk
+poster=poster.png
+description=Milk that does not pile up for years. Cows dry off a set number of game days after calving instead of giving milk all year; the udder no longer grows past its genetic maximum, so an unmilked cow is not hurt. Cow, sheep and animal milk in any container turns into sour milk after a few game days (slower in a powered fridge or freezer). All server-side, sandbox page DelMilk. Build 42.
+tags=Build 42
+versionMin=42.13

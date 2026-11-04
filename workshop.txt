@@ -1,0 +1,5 @@
+version=1
+title=Delirium Milk
+description=Cows dry off after calving, unmilked cows are not hurt, stored milk turns sour. Build 42.
+tags=Build 42
+visibility=public

@@ -1,0 +1,24 @@
+module DelMilk
+{
+    fluid DelSourMilk
+    {
+        ColorReference = LightGray,
+        DisplayName = Fluid_Name_DelSourMilk,
+        Categories
+        {
+            Beverage,
+            Hazardous,
+        }
+        Properties
+        {
+            ThirstChange = -20.0,
+            UnhappyChange = 20.0,
+        }
+        Poison
+        {
+            maxEffect = Mild,
+            minAmount = 0.5,
+            diluteRatio = 0.2,
+        }
+    }
+}

@@ -1,0 +1,67 @@
+VERSION = 1,
+
+option DelMilk.LactationDays
+{
+	type = integer,
+	min = 0,
+	max = 10000,
+	default = 300,
+
+	page = DelMilk,
+	translation = DelMilk_LactationDays,
+}
+
+option DelMilk.UdderCapPercent
+{
+	type = integer,
+	min = 10,
+	max = 115,
+	default = 100,
+
+	page = DelMilk,
+	translation = DelMilk_UdderCapPercent,
+}
+
+option DelMilk.SpoilDays
+{
+	type = double,
+	min = 0,
+	max = 365,
+	default = 3,
+
+	page = DelMilk,
+	translation = DelMilk_SpoilDays,
+}
+
+option DelMilk.FridgePercent
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 25,
+
+	page = DelMilk,
+	translation = DelMilk_FridgePercent,
+}
+
+option DelMilk.FreezerPercent
+{
+	type = integer,
+	min = 0,
+	max = 100,
+	default = 5,
+
+	page = DelMilk,
+	translation = DelMilk_FreezerPercent,
+}
+
+option DelMilk.ScanRadius
+{
+	type = integer,
+	min = 10,
+	max = 100,
+	default = 40,
+
+	page = DelMilk,
+	translation = DelMilk_ScanRadius,
+}
